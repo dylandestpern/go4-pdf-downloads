@@ -11,8 +11,8 @@ Choose the installer for your system from a release's **Assets** list:
 | System (x64) | Installer | Install |
 | --- | --- | --- |
 | Windows 10/11 | `*-windows-x64-setup.exe` | Double-click Setup; installs for your account. |
-| Ubuntu 22.04+ / Debian 12+ | `*.deb` | `sudo apt install ./go4-pdf_0.3.5_amd64.deb` |
-| Fedora with glibc 2.35+ / RHEL 10 and compatible systems | `*.rpm` | `sudo dnf install ./go4-pdf-0.3.5-1.x86_64.rpm` |
+| Ubuntu 22.04+ / Debian 12+ | `*.deb` | `sudo apt install ./go4-pdf_0.3.6_amd64.deb` |
+| Fedora with glibc 2.35+ / RHEL 10 and compatible systems | `*.rpm` | `sudo dnf install ./go4-pdf-0.3.6-1.x86_64.rpm` |
 
 Portable Windows ZIP and Linux tar.gz archives are also available. Keep their extracted files together. PDFium is included; users do not need Rust or Python. RHEL 9 and ARM systems are not supported by these builds.
 
@@ -25,21 +25,21 @@ Portable Windows ZIP and Linux tar.gz archives are also available. Keep their ex
 
 ## Application menu
 
-Use **File / Edit / View / Help** for application commands. **Help → About Go4 PDF** shows the installed version and publisher. PDF controls are above the document tabs.
+Use **File / Edit / View / Help** for application commands. **Help → About Go4 PDF** shows the installed version and publisher. The compact toolbar groups **Read**, **Annotate**, and **Edit PDF**, with page navigation, zoom, search, and view options above the document tabs.
 
 ## Updates
 
-**To update from 0.3.4:** open **Updates**, enable **Include preview releases**, then click **Check now**. In 0.3.5, you can also use **Help → Check for updates**. Download if needed, then install when your documents are saved.
+**To update from 0.3.4:** open **Updates**, enable **Include preview releases**, then click **Check now**. In 0.3.5 and later, use **Help → Check for updates**. Download if needed, then install when your documents are saved.
 
-Open **Updates** in the toolbar to choose automatic downloads with an install prompt (the default), installation on close, notifications only, or manual checks. Automatic checks run daily while the app is open. You can also choose whether to include preview releases.
+Open **Help → Update preferences** to choose automatic downloads with an install prompt (the default), installation on close, notifications only, or manual checks. Automatic checks run daily while the app is open. You can also choose whether to include preview releases.
 
 On Windows, installation on close runs the installer after Go4 PDF exits. On Linux, this option opens your system package installer, which may request administrator authorization. Portable copies download an archive for manual replacement.
 
-**Upgrading from 0.3.3:** install 0.3.5 manually once to get these update features.
+**Upgrading from 0.3.3:** install 0.3.6 manually once to get these update features.
 
 ## Preview status
 
-Version 0.3.5 is a development preview. The Windows installer is currently **unsigned** and Windows may show an unknown-publisher or reputation prompt. See each release for verification results and known limitations.
+Version 0.3.6 is a development preview. The Windows installer is currently **unsigned** and Windows may show an unknown-publisher or reputation prompt. See each release for verification results and known limitations.
 
 Close Go4 PDF before upgrading. Uninstall through Windows Settings or your Linux package manager. Installers register PDF Open with choices without changing your default PDF application.
 
